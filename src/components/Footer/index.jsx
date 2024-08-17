@@ -34,7 +34,7 @@ const Footer = ({ noSubBG }) => {
                     <span>Address : </span> Bandung, Indonesia.
                   </li>
                   <li>
-                    <span>Phone : </span> (+1) 2345 678 44 88
+                    <span>Phone : </span> (+1) 2345 678 99 00
                   </li>
                 </ul>
               </div>
