@@ -1,6 +1,6 @@
 {
   "name": "avo2-react",
-  "private": true,
+  "private": false,
   "homepage": "https://rantai-dev.github.io/profile-web",
   "scripts": {
     "dev": "next dev",
