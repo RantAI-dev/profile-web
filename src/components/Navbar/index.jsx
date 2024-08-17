@@ -52,7 +52,13 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+          <li className="nav-item">
+              <Link href="/">
+                <a className="nav-link">Home</a>
+              </Link>
+            </li>
+            
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -80,7 +86,6 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
               </div>
             </li>
-
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
@@ -143,7 +148,7 @@ const Navbar = ({ lr, nr, theme }) => {
               <Link href="/contact/contact-dark">
                 <a className="nav-link">Contact</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className="search">
             <span className="icon pe-7s-search cursor-pointer"></span>

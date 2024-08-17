@@ -20,7 +20,7 @@ const BlcSec = () => {
                   className="extra-title wow words chars splitting"
                   data-splitting
                 >
-                  We help to create strategies, design & development.
+                  We craft strategies, design innovative solutions, and develop advanced technology.
                 </h2>
               </Split>
             </div>
@@ -29,13 +29,10 @@ const BlcSec = () => {
             <div className="full-width">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We never underestimate any parts of each project as
-                  they&apos;re all essential to meeting the ultimate goal.
-                  you&apos;ll be engaged in with our positive and enthusiastic
-                  attitude.
+                  Every project detail matters to us, as each one drives us closer to your goals. You&apos;ll feel our dedication and passion throughout the entire journey.
                 </p>
               </Split>
-              <Split>
+              {/* <Split>
                 <Link href="/about/about-dark">
                   <a
                     className="simple-btn custom-font mt-20 wow words chars splitting"
@@ -44,7 +41,7 @@ const BlcSec = () => {
                     <span>Know More</span>
                   </a>
                 </Link>
-              </Split>
+              </Split> */}
             </div>
           </div>
         </div>

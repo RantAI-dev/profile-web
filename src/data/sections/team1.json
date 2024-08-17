@@ -1,38 +1,98 @@
 [
   {
     "id": 1,
-    "image": "/img/team/01.jpg",
-    "name": "Hasib sharif",
-    "title": "General Manager"
+    "image": "/img/team/evan.png",
+    "name": "Evan Pradipta Hardinatha",
+    "title": "Member",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/shirologic/",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
   },
   {
     "id": 2,
-    "image": "/img/team/02.jpg",
-    "name": "Jonson Leo",
-    "title": "Founder"
+    "image": "/img/team/jaisy.png",
+    "name": "Jaisy Malikulmulki Arasy",
+    "title": "Member",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/jaisy-arasy/",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
   },
   {
     "id": 3,
-    "image": "/img/team/03.jpg",
-    "name": "Leio Man",
-    "title": "Founder"
+    "image": "/img/team/chevan.png",
+    "name": "Chevan Walidain",
+    "title": "Member",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/chevhan-walidain/",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
   },
   {
     "id": 4,
-    "image": "/img/team/4.jpg",
-    "name": "Robert Front",
-    "title": "CEO Founder"
+    "image": "/img/team/daffa.png",
+    "name": "Daffa Asyqar Ahmad Khalisheka",
+    "title": "Member",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/daffasyqarrr/",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
   },
   {
     "id": 5,
-    "image": "/img/team/5.jpg",
-    "name": "Legender Mao",
-    "title": "3D Visualization"
+    "image": "/img/team/idham.png",
+    "name": "Idham Hanif Multazam",
+    "title": "Member",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/idham-multazam/",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
   },
   {
     "id": 6,
-    "image": "/img/team/6.jpg",
-    "name": "Matt Huk",
-    "title": "3D Visualization"
+    "image": "/img/team/farrel.png",
+    "name": "Farrel Rasya",
+    "title": "Member",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/farrel-rassya-1b6991257/",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
+  },
+  {
+    "id": 7,
+    "image": "/img/team/razka.png",
+    "name": "Razka Athallah Adnan",
+    "title": "Member",
+    "socials": {
+      "linkedin": "#",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
+  },
+  {
+    "id": 8,
+    "image": "/img/team/raffy.png",
+    "name": "Raffy Aulia Adnan",
+    "title": "Member",
+    "socials": {
+      "linkedin": "#",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
   }
 ]

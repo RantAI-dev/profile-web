@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": {
-      "first": "Unique",
-      "second": "brand Stories"
+      "first": "Precision",
+      "second": "in Technology"
     },
-    "image": "/img/slid/01.jpg"
+    "image": "/img/slid/bg-1.png"
   },
   {
     "id": 2,
     "title": {
-      "first": "Digital",
-      "second": "Design Awards"
+      "first": "Transformative",
+      "second": "IT Solutions"
     },
-    "image": "/img/slid/03.jpg"
+    "image": "/img/slid/bg-1.png"
   },
   {
     "id": 3,
     "title": {
-      "first": "Original",
-      "second": "Solutions"
+      "first": "Pioneering",
+      "second": "Digital Twin Tech"
     },
-    "image": "/img/slid/02.jpg"
+    "image": "/img/slid/bg-1.png"
   }
 ]

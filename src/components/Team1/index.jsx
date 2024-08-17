@@ -87,17 +87,17 @@ class Team1 extends React.Component {
                       <h5>{item.name}</h5>
                       <span>{item.title}</span>
                       <div className="social">
-                        <a href="#0">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#0">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href="#0">
-                          <i className="fab fa-behance"></i>
-                        </a>
-                        <a href="#0">
+                        <a href={item.socials.linkedin}>
                           <i className="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href={item.socials.github}>
+                          <i className="fab fa-github"></i>
+                        </a>
+                        <a href={item.socials.instagram}>
+                          <i className="fab fa-instagram"></i>
+                        </a>
+                        <a href={item.socials.facebook}>
+                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </div>
                     </div>

@@ -10,10 +10,11 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-monitor"></span>
               <h6>
-                Website <br /> Developments
+                Software <br /> Development
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                {/* <Link href="/about/about-dark"> */}
+                <Link href="#">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -29,10 +30,11 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-camera"></span>
               <h6>
-                Product <br /> Photography
+              Digital <br /> Simulation
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                {/* <Link href="/about/about-dark"> */}
+                <Link href="#">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -48,10 +50,11 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-phone"></span>
               <h6>
-                Mobile App <br /> Devlopment
+              Tech <br /> Consulting
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                {/* <Link href="/about/about-dark"> */}
+                <Link href="#">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -67,12 +70,13 @@ const Services2 = () => {
             data-wow-delay=".4s"
           >
             <div className="mas-item">
-              <span className="icon pe-7s-diskette"></span>
+              <span className="icon pe-7s-help2"></span>
               <h6>
-                Document <br /> Legal Policy
+                IT <br /> Optimization
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                {/* <Link href="/about/about-dark"> */}
+                <Link href="#">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -86,12 +90,13 @@ const Services2 = () => {
             data-wow-delay=".4s"
           >
             <div className="mas-item">
-              <span className="icon pe-7s-help2"></span>
+              <span className="icon pe-7s-diskette"></span>
               <h6>
-                Managing <br /> Community
+                Data <br /> Solutions
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                {/* <Link href="/about/about-dark"> */}
+                <Link href="#">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -107,10 +112,11 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-arc"></span>
               <h6>
-                Coustomer <br /> Engagement
+                Client <br /> Innovation
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                {/* <Link href="/about/about-dark"> */}
+                <Link href="#">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>

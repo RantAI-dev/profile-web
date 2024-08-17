@@ -9,7 +9,9 @@ import PortfolioCustomColumn from "../../components/Portfolio-custom-column";
 import Services2 from "../../components/Services2";
 import SkillsCircle from "../../components/Skills-circle";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
+import Team1 from "../../components/Team1";
 import DarkTheme from "../../layouts/Dark";
+import ContactSection from "../../components/Contact-section";
 
 const Homepage2 = () => {
   const navbarRef = React.useRef(null);
@@ -37,11 +39,13 @@ const Homepage2 = () => {
       <IntroWithSlider2 />
       <BlcSec />
       <Services2 />
-      <VideoWithTestimonials />
-      <SkillsCircle theme="dark" subBG />
-      <PortfolioCustomColumn column={3} filterPosition="center" />
-      <Clients1 theme="dark" subBG />
-      <CallToAction />
+      {/* <VideoWithTestimonials /> */}
+      {/* <SkillsCircle theme="dark" subBG /> */}
+      <PortfolioCustomColumn column={3} filterPosition="center" hideFilter={true} />
+      {/* <Clients1 theme="dark" subBG /> */}
+      <Team1 />
+      {/* <CallToAction /> */}
+      <ContactSection />
       <Footer />
     </DarkTheme>
   );

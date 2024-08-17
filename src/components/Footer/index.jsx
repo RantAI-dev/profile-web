@@ -28,11 +28,10 @@ const Footer = ({ noSubBG }) => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> Avo_support@website.com
+                    <span>Email : </span> rantaidev@gmail.com
                   </li>
                   <li>
-                    <span>Address : </span> A32 , Ave 15th Street, Door 211, San
-                    Franciso, USA 32490.
+                    <span>Address : </span> Bandung, Indonesia.
                   </li>
                   <li>
                     <span>Phone : </span> (+1) 2345 678 44 88
@@ -91,7 +90,7 @@ const Footer = ({ noSubBG }) => {
                 )}
               </Formik>
             </div>
-            <div className="insta">
+            {/* <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
                 <a href="#0">
@@ -104,7 +103,7 @@ const Footer = ({ noSubBG }) => {
                   <img src="/img/insta/3.jpg" alt="" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="copyrights text-center">

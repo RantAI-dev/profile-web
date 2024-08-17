@@ -12,4 +12,6 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  // basePath: '/profile-web',
+  // assetPrefix: '/profile-web/',
 };

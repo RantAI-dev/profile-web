@@ -24,7 +24,7 @@ const AboutWithSkills = () => {
                 </h3>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".5s">
-                Hello! I’m Alex Smith. Web designer from USA, California, San
+                Hello! I&apos;m Alex Smith. Web designer from USA, California, San
                 Francisco. I have rich experience in web site design and
                 building, also I am good at wordpress. I love to talk with you
                 about our unique.
