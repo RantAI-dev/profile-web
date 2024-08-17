@@ -1,0 +1,14 @@
+enable : true
+heading : "THE PROOF IS IN THE PUDDING!"
+counter_item: 
+  - title: "Book Created"
+    number: "2"
+
+  - title: "Projects Scheduled"
+    number: "15"
+
+  - title: "Software Projects"
+    number: "5"
+
+  - title: "Client Interested"
+    number: "100"
