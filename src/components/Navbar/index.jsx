@@ -16,9 +16,8 @@ const Navbar = ({ lr, nr, theme }) => {
   return (
     <nav
       ref={nr}
-      className={`navbar navbar-expand-lg change ${
-        theme === "themeL" ? "light" : ""
-      }`}
+      className={`navbar navbar-expand-lg change ${theme === "themeL" ? "light" : ""
+        }`}
     >
       <div className="container">
         <Link href="/">
@@ -52,13 +51,28 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
+            <li className="nav-item">
               <Link href="/">
                 <a className="nav-link">Home</a>
               </Link>
             </li>
-            
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            <li className="nav-item">
+              <Link href="/#">
+                <a className="nav-link">Platforms</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/#">
+                <a className="nav-link">Services</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/academy">
+                <a className="nav-link">Academy</a>
+              </Link>
+            </li>
+
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -148,7 +162,7 @@ const Navbar = ({ lr, nr, theme }) => {
               <Link href="/contact/contact-dark">
                 <a className="nav-link">Contact</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className="search">
             <span className="icon pe-7s-search cursor-pointer"></span>
