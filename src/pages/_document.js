@@ -19,7 +19,7 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="RantAI Website"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon-rantai.ico" />
