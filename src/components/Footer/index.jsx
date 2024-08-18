@@ -44,7 +44,7 @@ const Footer = ({ noSubBG }) => {
                 <div className="social">
                   {
                     socialsData.map((social, index) => (
-                      <a href={social.link} className="icon">
+                      <a key={index} href={social.link} className="icon">
                         <i className={social.icon}></i>
                       </a>
                     ))

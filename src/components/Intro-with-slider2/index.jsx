@@ -138,7 +138,7 @@ const IntroWithSlider2 = () => {
         <div className="social-icon">
           {
             socialsData.map((social, index) => (
-             <a href={social.link}>
+             <a key={index} href={social.link}>
               <i className={social.icon}></i>
              </a>
             ))
