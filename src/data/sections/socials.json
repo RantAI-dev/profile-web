@@ -22,5 +22,11 @@
         "name": "YouTube",
         "icon": "fab fa-youtube",
         "link": "https://youtube.com/@RantAI-dev"
+    },
+    {
+        "id": 5,
+        "name": "Telegram",
+        "icon": "fab fa-telegram",
+        "link": "https://t.me/rustindo"
     }
 ]

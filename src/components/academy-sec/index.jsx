@@ -1,6 +1,7 @@
 import React from "react";
 import Split from "../Split";
 import Link from "next/link";
+import socialsData from '../../data/sections/socials.json'
 
 const CallToAction = ({ img, theme, subBG }) => {
   return (
@@ -42,7 +43,16 @@ const CallToAction = ({ img, theme, subBG }) => {
           <div className="col-12">
             <p className="text-center mb-3">Or Connect with Us via:</p>
             <div className="social-links d-flex justify-content-center">
-              <Link href="https://linkedin.com/company/rantai-dev">
+              {
+                socialsData.map((social, index) => (
+                  <Link key={index} href={social.link}>
+                    <a className="mx-2" aria-label="Instagram">
+                      <i className={social.icon+" fa-2x"}></i>
+                    </a>
+                  </Link>
+                ))
+              }
+              {/* <Link href="https://linkedin.com/company/rantai-dev">
                 <a className="mx-2" aria-label="LinkedIn">
                   <i className="fab fa-linkedin fa-2x"></i>
                 </a>
@@ -61,7 +71,7 @@ const CallToAction = ({ img, theme, subBG }) => {
                 <a className="mx-2" aria-label="YouTube">
                   <i className="fab fa-youtube fa-2x"></i>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

@@ -32,10 +32,7 @@ const Footer = ({ noSubBG }) => {
                     <span>Email : </span> contacts@rantai.dev
                   </li>
                   <li>
-                    <span>Address : </span> Bandung, Indonesia.
-                  </li>
-                  <li>
-                    <span>Phone : </span> (+1) 2345 678 99 00
+                    <span>Address : </span> Depok, West Java, Indonesia.
                   </li>
                 </ul>
               </div>
