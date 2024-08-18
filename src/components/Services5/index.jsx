@@ -29,7 +29,7 @@ const Services5 = () => {
               </div>
               <h3 className="mb-30 fw-700">Leading in <br /> Advanced Education.</h3>
               <p>RantAI Academy delivers advanced education in modern Software, AI, Simulation, and Blockchain, powered by GenAI and Rust language.</p>
-              <p>Covering key disciplines like mathematics, physics, chemistry, biology, life sciences, material science, and earth sciences, we emphasize mastery of Numerical, Semi-numerical, Non-numerical, and Quantum algorithms. Whether you're tackling complex technologies or advancing in scientific computation, RantAI Academy provides the precise tools and expertise to excel.</p>
+              <p>Covering key disciplines like mathematics, physics, chemistry, biology, life sciences, material science, and earth sciences, we emphasize mastery of Numerical, Semi-numerical, Non-numerical, and Quantum algorithms. Whether you&apos;re tackling complex technologies or advancing in scientific computation, RantAI Academy provides the precise tools and expertise to excel.</p>
             </div>
           </div>
         </div>
