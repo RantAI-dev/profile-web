@@ -19,9 +19,9 @@ const Works3Slider = () => {
     <section className="work-carousel section-padding caroul simpl sub-bg position-re">
       <div className="container-fluid">
         <div className="sec-head custom-font text-center">
-          <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
+          <h6 className="wow fadeIn" data-wow-delay=".5s">RantAI Publishing</h6>
           <Split>
-            <h3 className="wow" data-splitting>Our Works.</h3>
+            <h3 className="wow" data-splitting>Our Books.</h3>
           </Split>
         </div>
         <div className="row">
@@ -72,18 +72,22 @@ const Works3Slider = () => {
               {
                 slides.map((slide) => (
                   <SwiperSlide key={slide.id}>
-                    <div className="content wow fadeInUp" data-wow-delay=".3s">
-                        <div className="item-img bg-img wow imago" style={{ backgroundImage: `url('${slide.image}')` }}>
+                    <Link href={slide.slug}>
+                      <a className="d-block">
+                        <div className="content wow fadeInUp" data-wow-delay=".3s">
+                          <div 
+                            className="custom-img-container wow imago position-relative" 
+                            style={{ backgroundImage: `url('${slide.image}')` }}
+                          >
+                            <div className="image-gradient-overlay"></div>
+                          </div>
+                          <div className="cont">
+                            <h6>{ slide.title }</h6>
+                            <h4>{ slide.secTex }</h4>
+                          </div>
                         </div>
-                        <div className="cont">
-                          <h6><a href="#0">{ slide.title }</a></h6>
-                          <h4>
-                            <Link href={slide.slug}>
-                              <a>{ slide.secTex }</a>
-                            </Link>
-                          </h4>
-                        </div>
-                    </div>
+                      </a>
+                    </Link>
                   </SwiperSlide>
                 ))
               }
@@ -98,8 +102,31 @@ const Works3Slider = () => {
           </div>
         </div>
       </div>
+      <style jsx>{`
+        .custom-img-container {
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 600px; /* Adjust the height as necessary */
+          position: relative;
+          display: flex;
+          align-items: flex-end; /* Align gradient to the bottom */
+        }
+
+        .image-gradient-overlay {
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+        }
+
+        .d-block {
+          text-decoration: none;
+          color: inherit;
+        }
+      `}</style>
     </section>
   )
 }
 
-export default Works3Slider
+export default Works3Slider;
