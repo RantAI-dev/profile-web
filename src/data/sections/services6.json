@@ -1,20 +1,23 @@
 [
   {
     "id": 1,
-    "title": "Digital Marketing",
-    "icon": "pe-7s-gleam",
-    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    "title": "RantAI Platforms",
+    "icon": "pe-7s-phone",
+    "content": "Interactive simulations and advanced tools for diverse scientific models.",
+    "link": "/platforms"
   },
   {
     "id": 2,
-    "title": "Web & App Development",
-    "icon": "pe-7s-phone",
-    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    "title": "RantAI Services",
+    "icon": "pe-7s-network",
+    "content": "Technology consulting services for revitalizing outdated applications.",
+    "link": "/services"
   },
   {
     "id": 3,
-    "title": "Graphic Design",
-    "icon": "pe-7s-magic-wand",
-    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    "title": "RantAI Academy",
+    "icon": "pe-7s-study",
+    "content": "Advanced education in Software, AI, Simulation, and Blockchain covering scientific disciplines",
+    "link": "/academy"
   }
 ]

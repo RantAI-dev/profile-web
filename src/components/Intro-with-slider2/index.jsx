@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import Split from "../Split";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+import socialsData from '../../data/sections/socials.json'
 
 SwiperCore.use([Navigation, Pagination, Parallax, Autoplay]);
 
@@ -101,9 +102,9 @@ const IntroWithSlider2 = () => {
                             </h1>
                           </Split>
                           {/* <Link href="/works2/works2-dark"> */}
-                          <Link href="#">
+                          <Link href={slide.redirect.link}>
                             <a className="simple-btn mt-50">
-                              <span>Discover Works</span>
+                              <span>{slide.redirect.text} <i className="fas fa-arrow-right"></i></span>
                             </a>
                           </Link>
                         </div>
@@ -135,12 +136,19 @@ const IntroWithSlider2 = () => {
         ></div>
 
         <div className="social-icon">
-          <a href="#0">
-            <i className="fab fa-linkedin"></i>
+          {
+            socialsData.map((social, index) => (
+             <a href={social.link}>
+              <i className={social.icon}></i>
+             </a>
+            ))
+          }
+          {/* <a href="#0">
+            <i className="fab fa-linkedin-in"></i>
           </a>
           <a href="#0">
             <i className="fab fa-github"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </header>

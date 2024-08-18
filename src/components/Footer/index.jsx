@@ -2,6 +2,7 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
+import socialsData from '../../data/sections/socials.json'
 
 const Footer = ({ noSubBG }) => {
   function validateEmail(value) {
@@ -15,7 +16,7 @@ const Footer = ({ noSubBG }) => {
   }
   const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
-    <footer className={`footer-half ${noSubBG ? '':'sub-bg'} section-padding pb-0`}>
+    <footer className={`footer-half ${noSubBG ? '' : 'sub-bg'} section-padding pb-0`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
@@ -28,7 +29,7 @@ const Footer = ({ noSubBG }) => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> rantaidev@gmail.com
+                    <span>Email : </span> contacts@rantai.dev
                   </li>
                   <li>
                     <span>Address : </span> Bandung, Indonesia.
@@ -41,25 +42,20 @@ const Footer = ({ noSubBG }) => {
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
-                  </a>
+                  {
+                    socialsData.map((social, index) => (
+                      <a href={social.link} className="icon">
+                        <i className={social.icon}></i>
+                      </a>
+                    ))
+                  }
                 </div>
               </div>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
+              <h6 className="custom-font stit simple-btn">Newsletter</h6>
               <p>Sign up for subscribe out newsletter!</p>
               <Formik
                 initialValues={{
@@ -108,7 +104,7 @@ const Footer = ({ noSubBG }) => {
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+            © 2024, RantAI-dev.
           </p>
         </div>
       </div>

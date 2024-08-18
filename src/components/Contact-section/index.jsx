@@ -1,10 +1,11 @@
 import React from "react";
 import Split from "../Split";
 import { Formik, Form, Field } from "formik";
-import axios from 'axios';
+import emailjs from 'emailjs-com';
 
 const ContactSection = () => {
   const messageRef = React.useRef(null);
+
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -14,7 +15,26 @@ const ContactSection = () => {
     }
     return error;
   }
-  const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  const sendEmail = (values) => {
+    emailjs.send(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, 
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, {
+        from_name: `${values.name} (${values.email})`,
+        to_name: "RantAI Contact",
+        message: values.message,
+        reply_to: "contacts@rantai.dev"
+      }, 
+      process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
+    .then((response) => {
+      messageRef.current.innerText =
+        "Your Message has been successfully sent.";
+    }, (error) => {
+      messageRef.current.innerText =
+        "Failed to send message. Please try again later.";
+    });
+  };
+
   return (
     <section className="contact-sec section-padding">
       <div className="container">
@@ -38,29 +58,9 @@ const ContactSection = () => {
                   email: "",
                   message: "",
                 }}
-                onSubmit={async (values) => {
-                  await sendMessage(500);
-                  // alert(JSON.stringify(values, null, 2));
-                  // show message
-                  const formData = new FormData();
-
-                  formData.append('name', values.name);
-                  formData.append('email', values.email);
-                  formData.append('message', values.message);
-                  const res = await axios.post('/contact.php', formData);
-
-                  if (!res) return;
-
-                  messageRef.current.innerText =
-                    "Your Message has been successfully sent. I will contact you soon.";
-                  // Reset the values
-                  values.name = "";
-                  values.email = "";
-                  values.message = "";
-                  // clear message
-                  setTimeout(() => {
-                    messageRef.current.innerText = "";
-                  }, 2000);
+                onSubmit={(values, { resetForm }) => {
+                  sendEmail(values);
+                  resetForm({ values: '' });
                 }}
               >
                 {({ errors, touched }) => (

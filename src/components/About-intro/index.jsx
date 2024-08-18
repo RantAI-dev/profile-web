@@ -8,21 +8,21 @@ const AboutIntro = () => {
         <div className="row">
           <div className="col-lg-3 col-md-4">
             <div className="htit sm-mb30">
-              <h4>Who We Are ?</h4>
+              <h4>What is our mission ?</h4>
             </div>
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We develop creative solutions for small and big brands alike,
-                  build authentic product identities and much more.Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit sit non facilisis
-                  vitae eu. Ultrices ut diam morbi risus dui, nec eget at lorem
-                  in id tristique in elementum leo nisi eleifend placerat magna
-                  lacus elementum ornare vehicula odio posuere quisque ultrices
-                  tempus cras id blandit maecenas in ornare quis dolor tempus
-                  risus vitae feugiat fames aliquet sede.
+                At RantAI, our mission is to empower businesses with advanced technology 
+                tools and platforms tailored for digital twin technologies. We enhance 
+                decision-making and reduce uncertainty through AI-automated, smart solutions 
+                that deliver precise digital simulations of real-world systems. By integrating 
+                physical laws, quantum algorithms with AI-driven models, we enable companies to 
+                predict, optimize, and innovate with unparalleled efficiency. Our goal is to 
+                democratize access to these transformative technologies, allowing businesses of 
+                all sizes to thrive with fewer resources and smarter, automated solutions.
                 </p>
               </Split>
             </div>

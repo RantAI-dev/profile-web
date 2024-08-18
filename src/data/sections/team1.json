@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "image": "/img/team/evan.png",
-    "name": "Evan Pradipta Hardinatha",
-    "title": "Member",
+    "image": "/img/team/raffy.png",
+    "name": "Raffy Aulia Adnan",
+    "title": "CEO",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/shirologic/",
+      "linkedin": "#",
       "github": "#",
       "instagram": "#",
       "facebook": "#"
@@ -15,7 +15,7 @@
     "id": 2,
     "image": "/img/team/jaisy.png",
     "name": "Jaisy Malikulmulki Arasy",
-    "title": "Member",
+    "title": "Chief AI Engineer",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/jaisy-arasy/",
       "github": "#",
@@ -25,11 +25,11 @@
   },
   {
     "id": 3,
-    "image": "/img/team/chevan.png",
-    "name": "Chevan Walidain",
-    "title": "Member",
+    "image": "/img/team/evan.png",
+    "name": "Evan Pradipta Hardinatha",
+    "title": " Chief Software Engineer",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/chevhan-walidain/",
+      "linkedin": "https://www.linkedin.com/in/shirologic/",
       "github": "#",
       "instagram": "#",
       "facebook": "#"
@@ -37,9 +37,45 @@
   },
   {
     "id": 4,
+    "image": "/img/team/razka.png",
+    "name": "Razka Athallah Adnan",
+    "title": "VP Scientist",
+    "socials": {
+      "linkedin": "#",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
+  },
+  {
+    "id": 5,
+    "image": "/img/team/mitchell.png",
+    "name": "Mitchell Chandi",
+    "title": "VP Engineer",
+    "socials": {
+      "linkedin": "#",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
+  },
+  {
+    "id": 6,
+    "image": "/img/team/farrel-p.png",
+    "name": "Farrel Pujokusumo",
+    "title": "VP Data Science",
+    "socials": {
+      "linkedin": "#",
+      "github": "#",
+      "instagram": "#",
+      "facebook": "#"
+    }
+  },
+  {
+    "id": 7,
     "image": "/img/team/daffa.png",
     "name": "Daffa Asyqar Ahmad Khalisheka",
-    "title": "Member",
+    "title": "AI Engineer",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/daffasyqarrr/",
       "github": "#",
@@ -48,22 +84,10 @@
     }
   },
   {
-    "id": 5,
-    "image": "/img/team/idham.png",
-    "name": "Idham Hanif Multazam",
-    "title": "Member",
-    "socials": {
-      "linkedin": "https://www.linkedin.com/in/idham-multazam/",
-      "github": "#",
-      "instagram": "#",
-      "facebook": "#"
-    }
-  },
-  {
-    "id": 6,
+    "id": 8,
     "image": "/img/team/farrel.png",
     "name": "Farrel Rasya",
-    "title": "Member",
+    "title": "AI Engineer",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/farrel-rassya-1b6991257/",
       "github": "#",
@@ -72,24 +96,24 @@
     }
   },
   {
-    "id": 7,
-    "image": "/img/team/razka.png",
-    "name": "Razka Athallah Adnan",
-    "title": "Member",
+    "id": 9,
+    "image": "/img/team/idham.png",
+    "name": "Idham Hanif Multazam",
+    "title": "Software Engineer",
     "socials": {
-      "linkedin": "#",
+      "linkedin": "https://www.linkedin.com/in/idham-multazam/",
       "github": "#",
       "instagram": "#",
       "facebook": "#"
     }
   },
   {
-    "id": 8,
-    "image": "/img/team/raffy.png",
-    "name": "Raffy Aulia Adnan",
-    "title": "Member",
+    "id": 10,
+    "image": "/img/team/chevan.png",
+    "name": "Chevan Walidain",
+    "title": "Software Engineer",
     "socials": {
-      "linkedin": "#",
+      "linkedin": "https://www.linkedin.com/in/chevhan-walidain/",
       "github": "#",
       "instagram": "#",
       "facebook": "#"

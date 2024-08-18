@@ -19,7 +19,7 @@ const MinimalArea = () => {
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="/img/min-area.jpg"
+                src="/img/logo-vertical-stroke-rantai-2.png"
                 alt=""
               />
             </div>
@@ -37,11 +37,13 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Our creative Ad agency is ranked among the finest in the US.
-                  We cultivate smart ideas for start-ups and seasoned players.
+                RantAI, an innovative Indonesian tech startup, tackles global challenges 
+                with advanced machine learning and quantum computing algorithms. Committed 
+                to pioneering digital twin technology and quantum advancements, RantAI is 
+                dedicated to elevating the frontiers of scientific problem-solving.
                 </p>
               </Split>
-              <ul className="feat">
+              {/* <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
                   <h6>
                     <span>1</span> Our Mission
@@ -66,7 +68,7 @@ const MinimalArea = () => {
                     luctus massa ipsum at tempus eleifend congue lectus bibendum
                   </p>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

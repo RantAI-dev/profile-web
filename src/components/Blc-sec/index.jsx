@@ -10,7 +10,7 @@ const BlcSec = () => {
           <div className="col-lg-7">
             <div className="intro md-mb30">
               <div className="sub-title">
-                <h6>Know Us Better</h6>
+                <h6>Our mission</h6>
                 <span></span>
                 <span></span>
                 <span></span>

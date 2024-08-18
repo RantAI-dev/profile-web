@@ -12,6 +12,9 @@ import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import Team1 from "../../components/Team1";
 import DarkTheme from "../../layouts/Dark";
 import ContactSection from "../../components/Contact-section";
+import AboutIntro from "../../components/About-intro";
+import MinimalArea from "../../components/Minimal-area";
+import Services6 from "../../components/Services6";
 
 const Homepage2 = () => {
   const navbarRef = React.useRef(null);
@@ -37,11 +40,15 @@ const Homepage2 = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider2 />
-      <BlcSec />
-      <Services2 />
+      <MinimalArea />
+      <Services6 />
+      <AboutIntro />
+
+      {/* <BlcSec /> */}
+      {/* <Services2 /> */}
       {/* <VideoWithTestimonials /> */}
       {/* <SkillsCircle theme="dark" subBG /> */}
-      <PortfolioCustomColumn column={3} filterPosition="center" hideFilter={true} />
+      {/* <PortfolioCustomColumn column={3} filterPosition="center" hideFilter={true} /> */}
       {/* <Clients1 theme="dark" subBG /> */}
       <Team1 />
       {/* <CallToAction /> */}
