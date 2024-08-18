@@ -28,13 +28,13 @@ const CallToAction = ({ img, theme, subBG }) => {
           </div>
 
           <div className="col-md-4 col-lg-3 valign text-center">
-            <Link href="mailto:contacts@rantai.dev">
+            <Link href="mailto:academy@rantai.dev">
               <a
                 className={`btn-curve ${theme === "light" ? "btn-blc" : "btn-lit"} wow fadeInUp`}
                 data-wow-delay=".5s"
               >
                 <span>EMAIL US</span>
-                <p>contacts@rantai.dev</p>
+                <p>academy@rantai.dev</p>
               </a>
             </Link>
           </div>
