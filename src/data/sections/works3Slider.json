@@ -1,37 +1,170 @@
 [
   {
     "id": 1,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/curs/1.jpg",
-    "slug": "/project-details/project-details-dark"
+    "title": "Available Open Source Web-Books",
+    "secTex": "TRPL - The Rust Programming Language",
+    "image": "/img/books/1-trpl.png",
+    "slug": "https://trpl.rantai.dev"
   },
   {
     "id": 2,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/curs/2.jpg",
-    "slug": "/project-details/project-details-dark"
+    "title": "Available Open Source Web-Books",
+    "secTex": "DSAR - Data Structures and Algorithms in Rust",
+    "image": "/img/books/2-dsar.png",
+    "slug": "https://dsar.rantai.dev"
   },
   {
     "id": 3,
-    "title": "art & illustration",
-    "secTex": "Natural plus modern",
-    "image": "/img/portfolio/curs/3.jpg",
-    "slug": "/project-details/project-details-dark"
+    "title": "Available Open Source Web-Books",
+    "secTex": "SDPR - Software Design Patterns in Rust",
+    "image": "/img/books/3-sdpr.png",
+    "slug": "https://sdpr.rantai.dev"
   },
   {
     "id": 4,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/curs/4.jpg",
-    "slug": "/project-details/project-details-dark"
+    "title": "Non-Numerical Computing Series",
+    "secTex": "MMDR – Multi Model Database in Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://mmdr.rantai.dev"
   },
   {
     "id": 5,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/curs/5.jpg",
-    "slug": "/project-details/project-details-dark"
+    "title": "Non-Numerical Computing Series",
+    "secTex": "WADR - Web App Development in Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://wadr.rantai.dev"
+  },
+  {
+    "id": 6,
+    "title": "Non-Numerical Computing Series",
+    "secTex": "FSDR - Full Stack Development in Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://fsdr.rantai.dev"
+  },
+  {
+    "id": 7,
+    "title": "Non-Numerical Computing Series",
+    "secTex": "BDIN - Blockchain Development in Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://bdin.rantai.dev"
+  },
+  {
+    "id": 8,
+    "title": "Non-Numerical Computing Series",
+    "secTex": "PHPR – Parallel and High Performance Computing in Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://phpr.rantai.dev"
+  },
+  {
+    "id": 9,
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "MLVR – Machine Learning via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://mlvr.rantai.dev"
+  },
+  {
+    "id": 10,
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "DLVR – Deep Learning via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://dlvr.rantai.dev"
+  },
+  {
+    "id": 11,
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "DMVR – Data Mining via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://dmvr.rantai.dev"
+  },
+  {
+    "id": 12,
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "LMVR – Large Language Model via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://lmvr.rantai.dev"
+  },
+  {
+    "id": 13,
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "RLVR – Reinforcement Learning via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://rlvr.rantai.dev"
+  },
+  {
+    "id": 14,
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "ABMR – Agent Based Modelling via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://abmr.rantai.dev"
+  },
+  {
+    "id": 15,
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "PRVR – Probabilistic Robotic via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://prvr.rantai.dev"
+  },
+  {
+    "id": 16,
+    "title": "Numerical Computing Series",
+    "secTex": "NRVR - Numerical Recipes via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://nrvr.rantai.dev"
+  },
+  {
+    "id": 17,
+    "title": "Numerical Computing Series",
+    "secTex": "CPVR - Computational Physics via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://cpvr.rantai.dev"
+  },
+  {
+    "id": 18,
+    "title": "Numerical Computing Series",
+    "secTex": "CBVR - Computational Biology via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://cbvr.rantai.dev"
+  },
+  {
+    "id": 19,
+    "title": "Numerical Computing Series",
+    "secTex": "CCVR - Computational Chemistry via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://ccvr.rantai.dev"
+  },
+  {
+    "id": 20,
+    "title": "Numerical Computing Series",
+    "secTex": "CFDR - Computational Fluid Dynamic via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://cfdr.rantai.dev"
+  },
+  {
+    "id": 21,
+    "title": "Numerical Computing Series",
+    "secTex": "MDSR - Molecular Dynamic Simulation via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://mdsr.rantai.dev"
+  },
+  {
+    "id": 22,
+    "title": "Numerical Computing Series",
+    "secTex": "RDAR - ROOT Data Analysis via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://rdar.rantai.dev"
+  },
+  {
+    "id": 23,
+    "title": "Numerical Computing Series",
+    "secTex": "SDVR – Scientific Data Visualization via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://sdvr.rantai.dev"
+  },
+  {
+    "id": 24,
+    "title": "Numerical Computing Series",
+    "secTex": "QCVR - Quantum Computing via Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://qcvr.rantai.dev"
   }
 ]

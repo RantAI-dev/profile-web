@@ -16,16 +16,7 @@ const Services5 = () => {
         <div className="row">
           <div className="col-lg-5 offset-lg-1 md-mb50">
             <div className="img">
-              <img src="/img/intro/b1.jpg" alt="" />
-              <div className="vid-icon">
-                <a className="vid" href="https://vimeo.com/127203262" onClick={(e) => {e.preventDefault(); setOpen(true);}}>
-                  <div className="vid-butn">
-                    <span className="icon">
-                      <i className="fas fa-play"></i>
-                    </span>
-                  </div>
-                </a>
-              </div>
+              <img src="/img/intro/trpl.png" alt="" />
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1 valign">
@@ -36,9 +27,9 @@ const Services5 = () => {
                 <span></span>
                 <span></span>
               </div>
-              <h3 className="mb-30 fw-700">Investing in <br /> the digital future.</h3>
-              <p>Since its establishment in 2000, Avo Creative has been focusing on project management & implementation through cooperation.</p>
-              <p>In total, Brook Creative has created more than 2000 projects related to constructional designing and landscaping worldwide.</p>
+              <h3 className="mb-30 fw-700">Leading in <br /> Advanced Education.</h3>
+              <p>RantAI Academy delivers advanced education in modern Software, AI, Simulation, and Blockchain, powered by GenAI and Rust language.</p>
+              <p>Covering key disciplines like mathematics, physics, chemistry, biology, life sciences, material science, and earth sciences, we emphasize mastery of Numerical, Semi-numerical, Non-numerical, and Quantum algorithms. Whether you're tackling complex technologies or advancing in scientific computation, RantAI Academy provides the precise tools and expertise to excel.</p>
             </div>
           </div>
         </div>
