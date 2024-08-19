@@ -3,8 +3,17 @@ import addParlx from '../../common/addParlx';
 
 const IntroTxt2 = () => {
   useEffect(() => {
-    setTimeout(() => addParlx());
+    // Run addParlx or other DOM manipulations
+    addParlx();
+  
+    // Force a repaint by briefly modifying the DOM
+    setTimeout(() => {
+      document.body.style.display = 'none';
+      document.body.offsetHeight; // Accessing offsetHeight forces a reflow
+      document.body.style.display = '';
+    }, 0);
   }, []);
+  
 
   return (
     <header className="slider simpl fixed-slider bg-img valign" style={{ backgroundImage: "url(/img/slid/academy.png)" }} data-overlay-dark="6">
@@ -23,7 +32,8 @@ const IntroTxt2 = () => {
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default IntroTxt2
+export default IntroTxt2;
+

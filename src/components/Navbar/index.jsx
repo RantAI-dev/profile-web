@@ -67,9 +67,9 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/academy">
+              <a href="/academy">
                 <a className="nav-link">Academy</a>
-              </Link>
+              </a>
             </li>
 
             {/* <li className="nav-item dropdown" onClick={handleDropdown}>
