@@ -3,7 +3,7 @@ import Components from "../../components/platforms-sec";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import DarkTheme from "../../layouts/Dark";
-const { Header, AboutUs2, Services3, CallToAction, MinimalArea, AboutIntro } = Components;
+const { Header, CallToAction, MinimalArea, AboutIntro } = Components;
 
 const Contact = () => {
   const fixedHeader = React.useRef(null);
