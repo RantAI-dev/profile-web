@@ -22,7 +22,7 @@ const Services5 = () => {
           <div className="col-lg-5 offset-lg-1 valign">
             <div className="cont">
               <div className="sub-title">
-                <h6>Who We Are ?</h6>
+                <h6>Who Are We ?</h6>
                 <span></span>
                 <span></span>
                 <span></span>

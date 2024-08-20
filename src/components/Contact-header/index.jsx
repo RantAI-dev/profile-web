@@ -17,16 +17,15 @@ const ContactHeader = ({ sliderRef }) => {
             <div className="capt mt-50">
               <div className="parlx">
                 <h2 className="custom-font">
-                  <span>Let&apos;s</span>Talk About Your project.
+                  <span>Book Publisher and Classes</span>RantAI Academy
                 </h2>
                 <p>
-                  Feel free to ask me any question or let&apos;s do to talk
-                  about our future collaboration.
+                Academy with GenAI Learning and Tailored Enterprise Solutions.
                 </p>
               </div>
 
               <div className="bactxt custom-font valign">
-                <span className="full-width">Contact</span>
+                <span className="full-width">ACADEMY</span>
               </div>
             </div>
           </div>
