@@ -2,18 +2,6 @@
   {
     "id": 1,
     "title": {
-      "first": "NextGen",
-      "second": "Scientific Simulations"
-    },
-    "redirect": {
-      "text": "RantAI Platforms",
-      "link": "/platforms"
-    },
-    "image": "/img/slid/bg-1.png"
-  },
-  {
-    "id": 2,
-    "title": {
       "first": "GenAI",
       "second": "Powered Learning"
     },
@@ -24,7 +12,7 @@
     "image": "/img/slid/academy.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": {
       "first": "AI Coders",
       "second": "and Optimizers"
@@ -34,5 +22,17 @@
       "link": "/services"
     },
     "image": "/img/slid/services.png"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "NextGen",
+      "second": "Scientific Simulations"
+    },
+    "redirect": {
+      "text": "RantAI Platforms",
+      "link": "/platforms"
+    },
+    "image": "/img/slid/bg-1.png"
   }
 ]

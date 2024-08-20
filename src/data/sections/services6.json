@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "RantAI Platforms",
-    "icon": "pe-7s-phone",
-    "content": "Interactive simulations and advanced tools for diverse scientific models.",
-    "link": "/platforms"
+    "title": "RantAI Academy",
+    "icon": "pe-7s-study",
+    "content": "Advanced education in Software, AI, Simulation, and Blockchain covering scientific disciplines",
+    "link": "/academy"
   },
   {
     "id": 2,
@@ -15,9 +15,9 @@
   },
   {
     "id": 3,
-    "title": "RantAI Academy",
-    "icon": "pe-7s-study",
-    "content": "Advanced education in Software, AI, Simulation, and Blockchain covering scientific disciplines",
-    "link": "/academy"
+    "title": "RantAI Platforms",
+    "icon": "pe-7s-phone",
+    "content": "Interactive simulations and advanced tools for diverse scientific models.",
+    "link": "/platforms"
   }
 ]

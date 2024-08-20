@@ -57,8 +57,8 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/#">
-                <a className="nav-link">Platforms</a>
+              <Link href="/academy">
+                <a className="nav-link">Academy</a>
               </Link>
             </li>
             <li className="nav-item">
@@ -67,8 +67,8 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/academy">
-                <a className="nav-link">Academy</a>
+              <Link href="/platforms">
+                <a className="nav-link">Platforms</a>
               </Link>
             </li>
 
