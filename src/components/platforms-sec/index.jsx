@@ -333,7 +333,7 @@ const AboutIntro = () => {
     <div className="row align-items-center">
       <div className="col-lg-3 col-md-4">
         <div className="htit sm-mb30">
-          <h4>What are the key features?</h4>
+          <h4>What are our key features?</h4>
         </div>
       </div>
       <div className="col-lg-8 offset-lg-1 col-md-8">
