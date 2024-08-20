@@ -46,7 +46,7 @@ const AboutUs2 = ({ skillsTheme }) => {
                 </h3>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".4s">
-              RantAI's scientific technology consulting services provide tailored solutions for legacy app modernization, software performance optimization, full-stack software development, and advanced machine learning engineering and operations.
+              RantAI&apos;s scientific technology consulting services provide tailored solutions for legacy app modernization, software performance optimization, full-stack software development, and advanced machine learning engineering and operations.
               </p>
               <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
               We specialize in revitalizing outdated applications, enhancing software security and performance, and delivering comprehensive machine learning engineering (MLEng) and operations (MLOps) to meet your business needs.
