@@ -21,7 +21,7 @@
       "text": "RantAI Academy",
       "link": "/academy"
     },
-    "image": "/img/slid/bg-1.png"
+    "image": "/img/slid/academy.png"
   },
   {
     "id": 3,
@@ -33,6 +33,6 @@
       "text": "RantAI Services",
       "link": "/services"
     },
-    "image": "/img/slid/bg-1.png"
+    "image": "/img/slid/services.png"
   }
 ]
