@@ -96,9 +96,6 @@ class Team1 extends React.Component {
                         <a href={item.socials.instagram}>
                           <i className="fab fa-instagram"></i>
                         </a>
-                        <a href={item.socials.facebook}>
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
