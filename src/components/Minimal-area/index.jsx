@@ -44,7 +44,7 @@ const MinimalArea = () => {
                 AI-driven coding and optimization allows us to deliver comprehensive, end-to-end 
                 scientific simulation and digital twin solutions. At RantAI, we are dedicated to 
                 pushing the boundaries of technology, delivering cutting-edge solutions to tackle 
-                the world's most critical scientific problems.
+                the world&apos;s most critical scientific problems.
                 </p>
               </Split>
               {/* <ul className="feat">
