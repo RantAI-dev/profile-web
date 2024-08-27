@@ -37,10 +37,14 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                RantAI, an innovative Indonesian tech startup, tackles global challenges 
-                with advanced machine learning and quantum computing algorithms. Committed 
-                to pioneering digital twin technology and quantum advancements, RantAI is 
-                dedicated to elevating the frontiers of scientific problem-solving.
+                RantAI started as pioneer in open book publishing for scientific computing, 
+                setting the standard for technological innovation. As a premier System Integrator 
+                (SI), we specialize in addressing complex scientific challenges through advanced 
+                Machine Learning, Deep Learning, and Agent-Based Modeling. Our proficiency in 
+                AI-driven coding and optimization allows us to deliver comprehensive, end-to-end 
+                scientific simulation and digital twin solutions. At RantAI, we are dedicated to 
+                pushing the boundaries of technology, delivering cutting-edge solutions to tackle 
+                the world's most critical scientific problems.
                 </p>
               </Split>
               {/* <ul className="feat">
