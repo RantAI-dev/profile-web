@@ -37,16 +37,7 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                As a premier System Integrator (SI), we specialize in addressing complex 
-                scientific challenges through advanced Machine Learning, Deep Learning, and 
-                Agent-Based Modeling. Our proficiency in AI-driven coding and optimization 
-                allows us to deliver comprehensive, end-to-end scientific simulation and 
-                digital twin solutions. At RantAI, we are dedicated to pushing the boundaries 
-                of technology, delivering cutting-edge solutions to tackle the world&apos;s most 
-                critical scientific problems. RantAI is also as pioneer in open book publishing 
-                for scientific computing, setting the standard for technological innovation. 
-                We are going to use this scientific publication as our marketing arm to reach 
-                out talents, customers and partners.
+                As a premier System Integrator (SI), RantAI specializes in addressing complex scientific challenges through advanced Machine Learning, Deep Learning, and Agent-Based Modeling. Our expertise in AI-driven coding and optimization enables us to deliver comprehensive, end-to-end scientific simulation, digital twin solutions, and AI Chip Development based on the RISC-V architecture. We push the boundaries of technology to tackle some of the world’s most critical scientific problems. RantAI is also a pioneer in open book publishing for scientific computing, setting the standard for technological innovation and using these publications as a strategic marketing arm to connect with top talent, customers, and partners.
                 </p>
               </Split>
               {/* <ul className="feat">
