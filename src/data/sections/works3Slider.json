@@ -22,53 +22,54 @@
   },
   {
     "id": 4,
-    "title": "Non-Numerical Computing Series",
-    "secTex": "MMDR – Multi Model Database in Rust",
-    "image": "/img/books/soon.png",
-    "slug": "https://mmdr.rantai.dev"
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "MLVR – Machine Learning via Rust",
+    "image": "/img/books/4-mlvr.png",
+    "slug": "https://mlvr.rantai.dev"
   },
   {
     "id": 5,
-    "title": "Non-Numerical Computing Series",
-    "secTex": "WADR - Web App Development in Rust",
-    "image": "/img/books/soon.png",
-    "slug": "https://wadr.rantai.dev"
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "LMVR – Large Language Model via Rust",
+    "image": "/img/books/5-lmvr.png",
+    "slug": "https://lmvr.rantai.dev"
   },
   {
     "id": 6,
-    "title": "Non-Numerical Computing Series",
-    "secTex": "FSDR - Full Stack Development in Rust",
-    "image": "/img/books/soon.png",
-    "slug": "https://fsdr.rantai.dev"
+    "title": "Semi-Numerical Computing Series",
+    "secTex": "DLVR – Deep Learning via Rust",
+    "image": "/img/books/6-dlvr.png",
+    "slug": "https://dlvr.rantai.dev"
   },
   {
     "id": 7,
-    "title": "Non-Numerical Computing Series",
-    "secTex": "BDIN - Blockchain Development in Rust",
-    "image": "/img/books/soon.png",
-    "slug": "https://bdin.rantai.dev"
+    "title": "Business in Modern Era",
+    "secTex": "Biz-Merger - Mastering Mergers and Acquisitions",
+    "image": "/img/books/7-mmab.png",
+    "slug": "https://biz-merger.rantai.dev"
   },
   {
     "id": 8,
     "title": "Non-Numerical Computing Series",
-    "secTex": "PHPR – Parallel and High Performance Computing in Rust",
-    "image": "/img/books/soon.png",
-    "slug": "https://phpr.rantai.dev"
+    "secTex": "MMDR – Multi Model Database in Rust",
+    "image": "/img/books/8-mmdr.png",
+    "slug": "https://mmdr.rantai.dev"
   },
   {
     "id": 9,
-    "title": "Semi-Numerical Computing Series",
-    "secTex": "MLVR – Machine Learning via Rust",
-    "image": "/img/books/soon.png",
-    "slug": "https://mlvr.rantai.dev"
+    "title": "Business in Modern Era",
+    "secTex": "Smart-SCM - Smart Supply Chain",
+    "image": "/img/books/9-sscm.png",
+    "slug": "https://smart-scm.rantai.dev"
   },
   {
     "id": 10,
     "title": "Semi-Numerical Computing Series",
-    "secTex": "DLVR – Deep Learning via Rust",
-    "image": "/img/books/soon.png",
-    "slug": "https://dlvr.rantai.dev"
+    "secTex": "RLVR – Reinforcement Learning via Rust",
+    "image": "/img/books/10-rlvr.png",
+    "slug": "https://rlvr.rantai.dev"
   },
+
   {
     "id": 11,
     "title": "Semi-Numerical Computing Series",
@@ -78,17 +79,17 @@
   },
   {
     "id": 12,
-    "title": "Semi-Numerical Computing Series",
-    "secTex": "LMVR – Large Language Model via Rust",
+    "title": "Non-Numerical Computing Series",
+    "secTex": "WADR - Web App Development in Rust",
     "image": "/img/books/soon.png",
-    "slug": "https://lmvr.rantai.dev"
+    "slug": "https://wadr.rantai.dev"
   },
   {
     "id": 13,
-    "title": "Semi-Numerical Computing Series",
-    "secTex": "RLVR – Reinforcement Learning via Rust",
+    "title": "Non-Numerical Computing Series",
+    "secTex": "FSDR - Full Stack Development in Rust",
     "image": "/img/books/soon.png",
-    "slug": "https://rlvr.rantai.dev"
+    "slug": "https://fsdr.rantai.dev"
   },
   {
     "id": 14,
@@ -166,5 +167,19 @@
     "secTex": "QCVR - Quantum Computing via Rust",
     "image": "/img/books/soon.png",
     "slug": "https://qcvr.rantai.dev"
+  },
+  {
+    "id": 25,
+    "title": "Non-Numerical Computing Series",
+    "secTex": "BDIN - Blockchain Development in Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://bdin.rantai.dev"
+  },
+  {
+    "id": 26,
+    "title": "Non-Numerical Computing Series",
+    "secTex": "PHPR – Parallel and High Performance Computing in Rust",
+    "image": "/img/books/soon.png",
+    "slug": "https://phpr.rantai.dev"
   }
 ]
